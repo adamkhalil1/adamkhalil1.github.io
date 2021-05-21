@@ -9,7 +9,10 @@ form {
     margin-top: 0em;
     float:left;
 }
-form1 {
+.form1 {
+    margin: auto;
+    width: 50%;
+    padding-left: 25%;
     display: block;
     margin-top: 0em;
 }
@@ -142,7 +145,7 @@ h3{
 .section1 {
     align-content: center;
     position: relative;
-    min-height: 80vh;
+    height: 80vh;
     width: 100%;
     background-image: url("images/section1bkg.png");
 
@@ -184,6 +187,7 @@ h3{
 }
 
 .boxes:hover {
+    background-color: white;
     transform: scale(1.10);
 }
 
