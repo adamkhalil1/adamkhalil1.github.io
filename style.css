@@ -4,6 +4,15 @@ body {
     font: normal 12px Verdana, Arial, sans-serif;
 }
 
+form {
+    display: block;
+    margin-top: 0em;
+    float:left;
+}
+form {
+    display: block;
+    margin-top: 0em;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
@@ -53,8 +62,8 @@ h3{
     display: block;
     cursor: pointer;
     float: left;
-    position: relative;
-    padding-left: 5%;
+    position:absolute;
+    left:50%;
     height: 100%;
 }
 
@@ -65,8 +74,8 @@ h3{
 
 #menuButton2 {
     text-align: left;
-    padding-left: 5%;
-    float: left;
+    padding-right: 20%;
+    float: right;
     position: relative;
     height: 100%;
 }
@@ -164,9 +173,8 @@ h3{
     margin-left: 10%;
     float: left;
     text-align: center;
-    min-height: 50vh;
+    height: 50vh;
     width: 20vw;
-    background-color: white;
     background-clip: content-box;
     -webkit-box-shadow: 29px 20px 92px -12px rgb(199, 164, 174);
     -moz-box-shadow: 29px 20px 92px -12px rgb(199, 164, 174);
@@ -203,6 +211,7 @@ h3{
 
 
 }
+
 
 
 
