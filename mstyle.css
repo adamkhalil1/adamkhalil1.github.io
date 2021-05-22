@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+    font: normal 12px Verdana, Arial, sans-serif;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    float: left;
+}
+
+.form1 {
+    margin: auto;
+    width: 50%;
+    padding-left: 25%;
+    display: block;
+    margin-top: 0em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+
+#fullscreen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.header {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    background: rgba(161, 211, 255, 0.2);
+
+}
+
+#menuButton1 {
+    text-align: right;
+    float: left;
+    position: relative;
+    padding-left: 20%;
+    height: 100%;
+}
+
+.logo {
+    display: block;
+    cursor: pointer;
+    float: left;
+    position: absolute;
+    left: 47.5%;
+    height: 100%;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+
+#menuButton2 {
+    text-align: left;
+    padding-right: 20%;
+    float: right;
+    position: relative;
+    height: 100%;
+}
+
+.button {
+
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button2:hover {
+    background-color: rgb(86, 193, 238);
+    font-size: 17px;
+    box-shadow: 0 14px 28px 0 rgba(86, 193, 238, 0.3), 0 27px 60px 0 rgba(10, 10, 4, 0.19);
+}
+
+.button3:hover {
+    background-color: rgb(233, 60, 151);
+    font-size: 17px;
+    box-shadow: 0 14px 28px 0 rgb(231, 132, 184), 0 27px 60px 0 rgb(236, 121, 182);
+}
+
+
+.centeredBox {
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 10vh;
+    color: #f1f0f0;
+    background: rgba(161, 211, 255, 0.2);
+    -webkit-animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.centeredBox2 {
+    position: relative;
+    text-align: center;
+    height: 50px;
+    width: 55vw;
+    padding-top: 15%;
+    padding-left: 22.5%;
+}
+
+.centeredBox2:hover {
+    transform: scale(1.17);
+}
+
+.section1 {
+    align-content: center;
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    background-image: url("media/section1bkg.png");
+
+    background-position: bottom;
+}
+
+.center {
+    text-align: center;
+    margin: auto;
+    padding-top: 5%;
+    width: 50%;
+
+}
+
+.section2 {
+    align-content: center;
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+
+
+}
+
+.boxes {
+    display: block;
+    margin-top: -5%;
+    margin-left: 10%;
+    float: left;
+    text-align: center;
+    height: 50vh;
+    width: 20vw;
+    background-clip: content-box;
+    -webkit-box-shadow: 29px 20px 92px -12px rgb(199, 164, 174);
+    -moz-box-shadow: 29px 20px 92px -12px rgb(199, 164, 174);
+    box-shadow: 29px 20px 92px -12px rgb(199, 164, 174);
+
+
+}
+
+.boxes:hover {
+    background-color: white;
+    transform: scale(1.10);
+}
+
+.imagebox {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 30%;
+    margin: auto;
+
+}
+
+.center2 {
+    display: inline-block;
+    margin-top: 300px;
+    padding-bottom: 50px;
+    text-align: center;
+    min-height: 45vh;
+    width: 100%;
+    background-image: url("media/section1bkg.png");
+
+    background-position: bottom;
+    -moz-box-shadow: 29px 20px 92px 12px rgb(199, 164, 174);
+    box-shadow: 29px 20px 92px 12px rgb(199, 164, 174);
+
+}
+
+.splitscreen {
+    position: relative;
+    margin-top: 10vh;
+    text-align: center;
+    float: left;
+    max-height: 90vh;
+    width: 50%;
+}
+
+#splittscreenvideo {
+    max-height: 90vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
